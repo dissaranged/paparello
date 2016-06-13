@@ -1,0 +1,45 @@
+
+.container  {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    width: 800px
+}
+
+.avatar {
+    width : 200px;
+}
+
+.bubble {
+    float:left;
+    border: 3px rgb(22, 16, 16) solid;
+    border-radius: 20px;
+    width: 390px;
+    min-height: 80px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.text {
+    font-size: 1.15em;
+}
+
+.message {
+    border: 2px rgb(22, 16, 22) dotted;
+    border-radius: 20px;
+    width: 370;
+    min-height: 2.5em;
+    margin-top: 30px;
+    padding:7px;
+    font-size: 0.85em;
+}
+
+.bubble > button {
+    border-radius: 5px;
+    float: right;
+}
+
+#doc {
+    width: 60em;
+    height: 40em;
+}
